@@ -1,0 +1,83 @@
+.side-bar {
+	padding-top: 15px;
+}
+
+.vertical-fill {
+	/*height:100%*/
+}
+header {
+	background-color: #BCF;
+	height: 100px;
+}
+footer {
+	background-color: rgba(209, 211, 232, 0.27);
+	position: fixed;
+	margin-top: 5px;
+	padding-top: 5px;
+	padding-bottom: 15px;
+	width: 100%;
+	bottom: 0px;
+}
+.side-bar {
+	background-color: #EE6;
+	height: 100vh;
+}
+body, .posts {
+	background-color: #EEF;
+}
+.posts {
+//	height: 100vh;
+}
+
+.fbpost {
+	background-color: white;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	padding: 5px;
+	clear: both;
+	border-radius: 5px;
+	border: 1px solid #CCC;
+	min-height:62px;
+}
+.fbpost img {
+	vertical-align: text-top;
+	margin-right: 5px;
+	/*margin-bottom: 5px;*/
+	max-width: 50px;
+	/*max-height: 50px;*/
+	float: left;
+}
+.fbpost .view-count {
+	float:right;
+	font-weight: bold;
+	font-size: 110%;
+	text-align: center;
+	border: inherit;
+	padding-left: 3px;
+	padding-right: 3px;
+	margin-left: 2px;
+}
+.fbpost .view-count .number {
+}
+.fbpost .view-count .count-label {
+	font-weight: normal;
+	font-size: x-small;
+}
+.fbpost .message {
+	/*display:inline;*/
+}
+
+.brief .fbpost {
+	display: inline-block;
+}
+.brief .message {
+	display: none;
+}
+.brief .view-count {
+	border: none;
+	font-size: 170%;
+}
+
+#post-dialog textarea {
+	resize: none;
+}
